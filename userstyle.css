@@ -20,7 +20,7 @@
     padding-bottom: 10px;
   }
   
-  button {
+  .button {
     border: none;
     outline: 0;
     display: inline-block;
