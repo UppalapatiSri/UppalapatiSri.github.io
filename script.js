@@ -12,4 +12,7 @@ var changemypic = function(){
         data_2 = false;
      }
      document.getElementById("myimage").src = display_data.image;
+     document.getElementById("myname").innerHTML = display_data.name;
+     document.getElementById("mydesig").innerHTML = display_data.designation;
+     
 }
