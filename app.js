@@ -12,8 +12,13 @@ async function getWeatherByLocation(city){
          const resp = await fetch(url(city), {
              origin: "cros" });
          const respData = await resp.json();
+         if(respData.cod === "404"){
+
+            main.innerHTML = `<div class="error">City not found. Please try again.</div>`;
+        } else {
      
            addWeatherToPage(respData);
+        }
           
      }
 
@@ -49,6 +54,7 @@ async function getWeatherByLocation(city){
 
         if(city){
             getWeatherByLocation(city)
+            search.value = '';
         }
 
      });

@@ -28,6 +28,12 @@ input:focus {
 .weather {
     text-align: center;
     font-size: 2rem;
+    margin-top: 2rem;
+}
+.error{
+    color: red;
+    font-weight: bold;
+    margin-top: 1rem;
 }
 .weather h2 {
     margin-bottom: 0;
