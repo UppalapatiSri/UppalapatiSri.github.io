@@ -2,6 +2,10 @@
 * {
     box-sizing: border-box;
 }
+body{
+    background: #222;
+}
+/*
 body {
     margin: 0;
     font-family: "Poppins", sans-serif;
@@ -33,4 +37,5 @@ input:focus {
     margin-bottom: 0;
     display: flex;
     align-items: center;
-} /* .weather img{ transform: scale(2); } */
+}  .weather img{ transform: scale(2); } 
+*/
