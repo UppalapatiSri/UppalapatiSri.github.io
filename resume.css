@@ -20,13 +20,13 @@ body {
 }
 .left {
 	position: initial;
-	background-color: rgb(126, 219, 231);
+	background-color: rgb(149, 126, 231);
 	padding: 20px;
 
 }
 .right {
 	position: initial;
-	background-color: rgb(162, 202, 206);
+	background-color: rgb(206, 179, 162);
 	padding: 20px;
 
 }
